@@ -1,0 +1,28 @@
+{
+  "name": "introweed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "live-server": "^1.2.2",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "firebase": "^11.7.3",
+    "lucide-react": "^0.511.0",
+    "react-router-dom": "^7.6.0"
+  }
+}
