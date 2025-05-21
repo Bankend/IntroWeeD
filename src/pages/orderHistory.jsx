@@ -9,7 +9,7 @@ export default function OrderHistory() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="pt-20 max-w-3xl mx-auto p-6">
       <h2 className="text-2xl font-bold mb-6 text-green-800">ประวัติการสั่งซื้อ</h2>
       {orders.map((order) => (
         <div key={order.id} className="mb-6 p-4 bg-white rounded shadow">

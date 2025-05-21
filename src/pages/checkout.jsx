@@ -30,7 +30,7 @@ export default function Checkout() {
   }
 
   return (
-    <div className="max-w-xl mx-auto p-4 rounded bg-white shadow">
+    <div className="pt-20 max-w-xl mx-auto p-4 rounded bg-white shadow">
       <h2 className="text-2xl font-bold mb-6 text-green-800">สรุปคำสั่งซื้อ</h2>
       {cartItems.map((item) => (
         <div key={item.id} className="mb-4 border-b pb-4">
