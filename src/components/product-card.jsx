@@ -63,8 +63,9 @@ export default function ProductCard({ product }) {
       <img
         src={product.image}
         alt={product.name}
-        className="rounded-xl w-full h-40 object-cover mb-4 shadow-md group-hover:scale-105 transition-transform"
-        style={{ background: "#e0f2f1" }}
+        className="h-48 w-full object-cover rounded-t-xl bg-gray-100"
+        loading="lazy"
+        onError={e => { e.target.onerror = null; e.target.src = '/default-image.jpg'; }}
       />
       <h3 className="text-xl font-bold text-green-800 mb-2">{product.name}</h3>
       <p className="text-gray-700 text-sm mb-4 text-center font-medium">
